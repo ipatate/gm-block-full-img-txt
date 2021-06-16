@@ -1,0 +1,15 @@
+{
+	"apiVersion": 2,
+	"name": "goodmotion/gm-block-full-img-txt",
+	"title": "Gm Block Full Img Txt",
+	"category": "goodmotion-blocks",
+	"icon": "columns",
+	"description": "Block full width with image and content.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "gm-block-full-img-txt",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}
