@@ -18,11 +18,15 @@ export default function save(props) {
 				}}
 			/>
 			<div className="gm-full-content">
-				<RichText.Content tagName="h2" value={title} />
-				<RichText.Content tagName="p" value={text} />
-				<a href={target} title={label}>
-					<RichText.Content tagName="span" value={label} />
-				</a>
+				<div className="gm-full-content-inner">
+					<RichText.Content tagName="h2" value={title} />
+					<RichText.Content tagName="p" value={text} />
+					<div className="gm-full-content-action">
+						<a href={target} title={label}>
+							<RichText.Content tagName="span" value={label} />
+						</a>
+					</div>
+				</div>
 			</div>
 		</div>
 	);
